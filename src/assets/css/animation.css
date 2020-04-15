@@ -1,0 +1,152 @@
+@keyframes slideInDown {
+    from {
+        opacity: 0;
+        transform: translateY(1rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+.slideToTop {
+    opacity: 0;
+    animation: slideInDown 0.8s forwards;
+}
+
+.delay1 {
+    opacity: 0;
+    animation: slideInDown 0.8s forwards ease;
+    animation-delay: 0.4s;
+}
+
+.delay2 {
+    opacity: 0;
+    animation: slideInDown 0.8s forwards ease;
+    animation-delay: 0.8s;
+}
+
+.delay3 {
+    opacity: 0;
+    animation: slideInDown 0.8s forwards ease;
+    animation-delay: 1.2s;
+}
+
+.delay4 {
+    opacity: 0;
+    animation: slideInDown 0.8s forwards ease;
+    animation-delay: 1.6s;
+}
+
+.delay5 {
+    opacity: 0;
+    animation: slideInDown 0.8s forwards ease;
+    animation-delay: 2s;
+}
+
+.delay6 {
+    opacity: 0;
+    animation: slideInDown 0.8s forwards ease;
+    animation-delay: 2.4s;
+}
+
+.delay7 {
+    opacity: 0;
+    animation: slideInDown 0.8s forwards ease;
+    animation-delay: 2.8s;
+}
+
+.delay8 {
+    opacity: 0;
+    animation: slideInDown 0.8s forwards ease;
+    animation-delay: 3.2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+
+}
+
+.fadein {
+    opacity: 0;
+    animation: fadein 0.8s forwards ease;
+}
+
+@keyframes slidetoright {
+    from {
+        opacity: 0;
+        transform: translateX(-1.5rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+.slidetoright {
+    opacity: 0;
+    animation: slidetoright 1s forwards ease;
+}
+
+.dd1 {
+    animation-delay: 0.2s;
+}
+
+.dd2 {
+    animation-delay: 0.4s;
+}
+
+.dd3 {
+    animation-delay: 0.6s;
+}
+
+.dd4 {
+    animation-delay: 0.8s;
+}
+
+.dd5 {
+    animation-delay: 1s;
+}
+
+@keyframes arrow {
+    from {
+        transform: translateY(1rem);
+    }
+    to {
+        transform: translateY(-0.5rem);
+    }
+
+}
+
+.arrow {
+    animation: arrow 1.2s infinite alternate linear;
+}
+
+@keyframes scaleIn {
+
+    from {
+        opacity: 0;
+        transform: scale(1.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes everaser {
+    from {
+        transform: translate(-0.1rem, 0.1rem);
+    }
+    to {
+        transform: translate(1rem, -0.1rem);
+    }
+
+}
